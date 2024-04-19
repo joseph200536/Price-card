@@ -1,0 +1,57 @@
+@media only screen and (max-width:1366px) {
+    .cards{
+        width:80%;
+    }
+    .cont{
+        padding-top: 4%;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .cards{
+        width:100%;
+    }
+    .card{
+        width: 25%;
+    }
+    .cont{
+        padding-top: 4%;
+    }
+    .cont h3{
+        font-size: 28px;
+        margin: 15px 0;
+    }
+}
+@media only screen and (max-width:768px) {
+    .pricing-card{
+        height: 100%;
+    }
+    .cards{
+        align-items: center;
+        flex-direction: column;
+        width:50%;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cont{
+        padding-top: 4%;
+    }
+}
+@media only screen and (max-width:425px) {
+    .cards{
+        align-items: center;
+        flex-direction: column;
+        width:60%;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cont{
+        padding-top: 4%;
+    }
+    .cont h3{
+        font-size: 24px;
+    }
+}
